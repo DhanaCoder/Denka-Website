@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@font-face {
+  font-family: 'rational';
+  src: url('/public/font/RationalDisplay-Black.ttf');
+  font-weight: 600;
+}
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.gradient-button {
+  background: rgb(55, 45, 167);
+  background: linear-gradient(45deg, rgba(55, 45, 167, 1) 5%, rgba(138, 115, 232, 1) 71%);
+}
+
+.blur {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+
+}
+
+.main-linear-gradient {
+  background: rgb(55, 45, 167);
+  background: linear-gradient(45deg, rgba(55, 45, 167, 1) 5%, rgba(138, 115, 232, 1) 71%);
+}
+
+.denkaCardImageRounded {
+  position: absolute;
+  width: 400px;
+}
+
+
+.circle-shadow {
+  -webkit-box-shadow: 1px 1px 75px 43px rgba(138, 115, 232, 0.28);
+  -moz-box-shadow: 1px 1px 75px 43px rgba(138, 115, 232, 0.28);
+  box-shadow: 1px 1px 75px 43px rgba(138, 115, 232, 0.28);
+}
+
+.max-blur {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Clearing Floats*/
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+/* Form wrapper styling */
+
+.search-wrapper {
+  width: 350px;
+  margin: 150px auto 50px auto;
+  border-radius: 40px;
+  background: transparent;
+  box-shadow: 0 4px 20px -2px #e9e9e9;
+  padding: 5px;
+  background-color: #fff;
+}
+
+/* Form text input */
+
+
+.search-wrapper input {
+  padding-left: 20px;
+  width: 235px;
+  height: 20px;
+  padding: 10px 5px;
+  float: left;
+  font: bold 13px "lucida sans", "trebuchet MS", "Tahoma";
+  border: 0;
+  z-index: 1;
+  background: #fff;
+  border-radius: 40px;
+  border-top-style: none;
+}
+
+.search-wrapper input:focus {
+  outline: 0;
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8) inset;
+}
+
+.search-wrapper input::-webkit-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.search-wrapper input:-moz-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.search-wrapper input:-ms-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  border-style: none;
+}
+
+/* Form submit button */
+.search-wrapper button {
+  overflow: visible;
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 110px;
+  bottom: 12px;
+  left: -11px;
+  z-index: 999;
+  font: 13px/40px "lucida sans", "trebuchet MS", "Tahoma";
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 40px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+.search-wrapper button:focus:before,
+.search-wrapper button:active:before {
+  border-right-color: #c42f2f;
+}
+
+.search-wrapper button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+
+
+/* Custom Scrollbar */
+.custom-scrollbar {
+  /* Scrollbar track */
+  &::-webkit-scrollbar {
+    width: 12px;
+    height: 4px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background-color: #8A73E8; /* Equivalent to bg-gray-400 */
+    border-radius: 9999px; /* Equivalent to rounded-full */
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #8A73E8; /* Equivalent to bg-gray-500 */
+  }
+
+  /* Scrollbar track */
+  &::-webkit-scrollbar-track {
+    background-color: #D9D9D929; /* Equivalent to bg-gray-200 */
+  }
+}
+

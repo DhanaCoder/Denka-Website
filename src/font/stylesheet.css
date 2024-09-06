@@ -1,0 +1,480 @@
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-MediumItalic.eot');
+    src: local('Rational Text Medium Italic'), local('RationalText-MediumItalic'),
+        url('RationalText-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-MediumItalic.woff2') format('woff2'),
+        url('RationalText-MediumItalic.woff') format('woff'),
+        url('RationalText-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Display Book';
+    src: url('RationalDisplay-BoldItalic.eot');
+    src: local('Rational Display Bold Italic'), local('RationalDisplay-BoldItalic'),
+        url('RationalDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-BoldItalic.woff2') format('woff2'),
+        url('RationalDisplay-BoldItalic.woff') format('woff'),
+        url('RationalDisplay-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-ExtraLight.eot');
+    src: local('Rational Display ExtraLight'), local('RationalDisplay-ExtraLight'),
+        url('RationalDisplay-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-ExtraLight.woff2') format('woff2'),
+        url('RationalDisplay-ExtraLight.woff') format('woff'),
+        url('RationalDisplay-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-LightItalic.eot');
+    src: local('Rational Text Light Italic'), local('RationalText-LightItalic'),
+        url('RationalText-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-LightItalic.woff2') format('woff2'),
+        url('RationalText-LightItalic.woff') format('woff'),
+        url('RationalText-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Display Book';
+    src: url('RationalDisplay-Book.eot');
+    src: local('Rational Display Book'), local('RationalDisplay-Book'),
+        url('RationalDisplay-Book.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-Book.woff2') format('woff2'),
+        url('RationalDisplay-Book.woff') format('woff'),
+        url('RationalDisplay-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-Black.eot');
+    src: local('Rational Display Black'), local('RationalDisplay-Black'),
+        url('RationalDisplay-Black.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-Black.woff2') format('woff2'),
+        url('RationalDisplay-Black.woff') format('woff'),
+        url('RationalDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-Medium.eot');
+    src: local('Rational Text Medium'), local('RationalText-Medium'),
+        url('RationalText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-Medium.woff2') format('woff2'),
+        url('RationalText-Medium.woff') format('woff'),
+        url('RationalText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Display Hairline';
+    src: url('RationalDisplay-Hairline.eot');
+    src: local('Rational Display Hairline'), local('RationalDisplay-Hairline'),
+        url('RationalDisplay-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-Hairline.woff2') format('woff2'),
+        url('RationalDisplay-Hairline.woff') format('woff'),
+        url('RationalDisplay-Hairline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Display Book';
+    src: url('RationalDisplay-Bold.eot');
+    src: local('Rational Display Bold'), local('RationalDisplay-Bold'),
+        url('RationalDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-Bold.woff2') format('woff2'),
+        url('RationalDisplay-Bold.woff') format('woff'),
+        url('RationalDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-Medium.eot');
+    src: local('Rational Display Medium'), local('RationalDisplay-Medium'),
+        url('RationalDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-Medium.woff2') format('woff2'),
+        url('RationalDisplay-Medium.woff') format('woff'),
+        url('RationalDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-Thin.eot');
+    src: local('Rational Display Thin'), local('RationalDisplay-Thin'),
+        url('RationalDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-Thin.woff2') format('woff2'),
+        url('RationalDisplay-Thin.woff') format('woff'),
+        url('RationalDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Text Book';
+    src: url('RationalText-BookItalic.eot');
+    src: local('Rational Text Book Italic'), local('RationalText-BookItalic'),
+        url('RationalText-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-BookItalic.woff2') format('woff2'),
+        url('RationalText-BookItalic.woff') format('woff'),
+        url('RationalText-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Text Hairline';
+    src: url('RationalText-HairlineItalic.eot');
+    src: local('Rational Text Hairline Italic'), local('RationalText-HairlineItalic'),
+        url('RationalText-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-HairlineItalic.woff2') format('woff2'),
+        url('RationalText-HairlineItalic.woff') format('woff'),
+        url('RationalText-HairlineItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Text Hairline';
+    src: url('RationalText-Hairline.eot');
+    src: local('Rational Text Hairline'), local('RationalText-Hairline'),
+        url('RationalText-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-Hairline.woff2') format('woff2'),
+        url('RationalText-Hairline.woff') format('woff'),
+        url('RationalText-Hairline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-SemiBold.eot');
+    src: local('Rational Display SemiBold'), local('RationalDisplay-SemiBold'),
+        url('RationalDisplay-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-SemiBold.woff2') format('woff2'),
+        url('RationalDisplay-SemiBold.woff') format('woff'),
+        url('RationalDisplay-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-ExtraLightItalic.eot');
+    src: local('Rational Display ExtraLight Italic'), local('RationalDisplay-ExtraLightItalic'),
+        url('RationalDisplay-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-ExtraLightItalic.woff2') format('woff2'),
+        url('RationalDisplay-ExtraLightItalic.woff') format('woff'),
+        url('RationalDisplay-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-ExtraBold.eot');
+    src: local('Rational Display ExtraBold'), local('RationalDisplay-ExtraBold'),
+        url('RationalDisplay-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-ExtraBold.woff2') format('woff2'),
+        url('RationalDisplay-ExtraBold.woff') format('woff'),
+        url('RationalDisplay-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-ExtraBoldItalic.eot');
+    src: local('Rational Display ExtraBold Italic'), local('RationalDisplay-ExtraBoldItalic'),
+        url('RationalDisplay-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-ExtraBoldItalic.woff2') format('woff2'),
+        url('RationalDisplay-ExtraBoldItalic.woff') format('woff'),
+        url('RationalDisplay-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Text Book';
+    src: url('RationalText-BoldItalic.eot');
+    src: local('Rational Text Bold Italic'), local('RationalText-BoldItalic'),
+        url('RationalText-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-BoldItalic.woff2') format('woff2'),
+        url('RationalText-BoldItalic.woff') format('woff'),
+        url('RationalText-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-MediumItalic.eot');
+    src: local('Rational Display Medium Italic'), local('RationalDisplay-MediumItalic'),
+        url('RationalDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-MediumItalic.woff2') format('woff2'),
+        url('RationalDisplay-MediumItalic.woff') format('woff'),
+        url('RationalDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Text Book';
+    src: url('RationalText-Book.eot');
+    src: local('Rational Text Book'), local('RationalText-Book'),
+        url('RationalText-Book.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-Book.woff2') format('woff2'),
+        url('RationalText-Book.woff') format('woff'),
+        url('RationalText-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-SemiBold.eot');
+    src: local('Rational Text SemiBold'), local('RationalText-SemiBold'),
+        url('RationalText-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-SemiBold.woff2') format('woff2'),
+        url('RationalText-SemiBold.woff') format('woff'),
+        url('RationalText-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-Light.eot');
+    src: local('Rational Text Light'), local('RationalText-Light'),
+        url('RationalText-Light.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-Light.woff2') format('woff2'),
+        url('RationalText-Light.woff') format('woff'),
+        url('RationalText-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-BlackItalic.eot');
+    src: local('Rational Text Black Italic'), local('RationalText-BlackItalic'),
+        url('RationalText-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-BlackItalic.woff2') format('woff2'),
+        url('RationalText-BlackItalic.woff') format('woff'),
+        url('RationalText-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Text Book';
+    src: url('RationalText-Bold.eot');
+    src: local('Rational Text Bold'), local('RationalText-Bold'),
+        url('RationalText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-Bold.woff2') format('woff2'),
+        url('RationalText-Bold.woff') format('woff'),
+        url('RationalText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-Thin.eot');
+    src: local('Rational Text Thin'), local('RationalText-Thin'),
+        url('RationalText-Thin.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-Thin.woff2') format('woff2'),
+        url('RationalText-Thin.woff') format('woff'),
+        url('RationalText-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-ExtraBold.eot');
+    src: local('Rational Text ExtraBold'), local('RationalText-ExtraBold'),
+        url('RationalText-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-ExtraBold.woff2') format('woff2'),
+        url('RationalText-ExtraBold.woff') format('woff'),
+        url('RationalText-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-SemiBoldItalic.eot');
+    src: local('Rational Text SemiBold Italic'), local('RationalText-SemiBoldItalic'),
+        url('RationalText-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-SemiBoldItalic.woff2') format('woff2'),
+        url('RationalText-SemiBoldItalic.woff') format('woff'),
+        url('RationalText-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-Light.eot');
+    src: local('Rational Display Light'), local('RationalDisplay-Light'),
+        url('RationalDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-Light.woff2') format('woff2'),
+        url('RationalDisplay-Light.woff') format('woff'),
+        url('RationalDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-ExtraLightItalic.eot');
+    src: local('Rational Text ExtraLight Italic'), local('RationalText-ExtraLightItalic'),
+        url('RationalText-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-ExtraLightItalic.woff2') format('woff2'),
+        url('RationalText-ExtraLightItalic.woff') format('woff'),
+        url('RationalText-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-SemiBoldItalic.eot');
+    src: local('Rational Display SemiBold Italic'), local('RationalDisplay-SemiBoldItalic'),
+        url('RationalDisplay-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url('RationalDisplay-SemiBoldItalic.woff') format('woff'),
+        url('RationalDisplay-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-ThinItalic.eot');
+    src: local('Rational Display Thin Italic'), local('RationalDisplay-ThinItalic'),
+        url('RationalDisplay-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-ThinItalic.woff2') format('woff2'),
+        url('RationalDisplay-ThinItalic.woff') format('woff'),
+        url('RationalDisplay-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-ExtraBoldItalic.eot');
+    src: local('Rational Text ExtraBold Italic'), local('RationalText-ExtraBoldItalic'),
+        url('RationalText-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-ExtraBoldItalic.woff2') format('woff2'),
+        url('RationalText-ExtraBoldItalic.woff') format('woff'),
+        url('RationalText-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-ThinItalic.eot');
+    src: local('Rational Text Thin Italic'), local('RationalText-ThinItalic'),
+        url('RationalText-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-ThinItalic.woff2') format('woff2'),
+        url('RationalText-ThinItalic.woff') format('woff'),
+        url('RationalText-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Display Book';
+    src: url('RationalDisplay-BookItalic.eot');
+    src: local('Rational Display Book Italic'), local('RationalDisplay-BookItalic'),
+        url('RationalDisplay-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-BookItalic.woff2') format('woff2'),
+        url('RationalDisplay-BookItalic.woff') format('woff'),
+        url('RationalDisplay-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-Black.eot');
+    src: local('Rational Text Black'), local('RationalText-Black'),
+        url('RationalText-Black.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-Black.woff2') format('woff2'),
+        url('RationalText-Black.woff') format('woff'),
+        url('RationalText-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Display Hairline';
+    src: url('RationalDisplay-HairlineItalic.eot');
+    src: local('Rational Display Hairline Italic'), local('RationalDisplay-HairlineItalic'),
+        url('RationalDisplay-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-HairlineItalic.woff2') format('woff2'),
+        url('RationalDisplay-HairlineItalic.woff') format('woff'),
+        url('RationalDisplay-HairlineItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-BlackItalic.eot');
+    src: local('Rational Display Black Italic'), local('RationalDisplay-BlackItalic'),
+        url('RationalDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-BlackItalic.woff2') format('woff2'),
+        url('RationalDisplay-BlackItalic.woff') format('woff'),
+        url('RationalDisplay-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rational Text';
+    src: url('RationalText-ExtraLight.eot');
+    src: local('Rational Text ExtraLight'), local('RationalText-ExtraLight'),
+        url('RationalText-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('RationalText-ExtraLight.woff2') format('woff2'),
+        url('RationalText-ExtraLight.woff') format('woff'),
+        url('RationalText-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rational Display';
+    src: url('RationalDisplay-LightItalic.eot');
+    src: local('Rational Display Light Italic'), local('RationalDisplay-LightItalic'),
+        url('RationalDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('RationalDisplay-LightItalic.woff2') format('woff2'),
+        url('RationalDisplay-LightItalic.woff') format('woff'),
+        url('RationalDisplay-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
