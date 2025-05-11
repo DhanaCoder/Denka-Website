@@ -61,10 +61,10 @@ export const HeroAfter = () => {
       <div className="flex items-center gap-10">
         <div className="flex flex-col md:w-[65%] w-full item-start">
           <h1 className="sm:text-3xl text-2xl lg:text-5xl xl:text-6xl  font-semibold font-rational">
-            Welcome to Denka®: Where Innovation Meets Sustainability
+            Welcome to Huntproperty®: Where Innovation Meets Sustainability
           </h1>
           <p className="lg:mt-10 mt-5 max-w-full md:max-w-[718px]  text-left text-black text-base lg:text-xl">
-            Denka® began with a simple question, leading a dedicated team of Electrical Engineers,
+            Huntproperty® began with a simple question, leading a dedicated team of Electrical Engineers,
             Metallurgists, PhD holders, and scientists to spend over five years perfecting our technology. By
             2019, we were ready to bring our revolutionary energy-saving solution to the world.
           </p>
@@ -74,15 +74,15 @@ export const HeroAfter = () => {
             minimized electrical noise, ensuring a cleaner, more efficient power flow.
           </p>
           <p className="mt-5 max-w-full md:max-w-[718px]  text-left text-black text-base lg:text-xl">
-            But Denka® is more than just a product—it’s a promise. We prioritize sustainability in every decision,
+            But Huntproperty® is more than just a product—it’s a promise. We prioritize sustainability in every decision,
             ensuring our solutions are eco-friendly and built to last. Our dedication to integrity means
-            transparency and ethical practices guide all we do, so when you choose Denka®, you’re choosing a
+            transparency and ethical practices guide all we do, so when you choose Huntproperty®, you’re choosing a
             brand you can trust.
           </p>
           <p className="mt-5 max-w-full md:max-w-[718px]  text-left text-black text-base lg:text-xl">
             We believe informed choices are powerful, so we simplify complex ideas, empowering you to make
             smart decisions about your energy use. Join our community committed to sustainable living and
-            discover the difference Denka® can make in your life.
+            discover the difference Huntproperty® can make in your life.
           </p>
         </div>
         <div className=" hidden w-[35%] md:flex items-center justify-center">
@@ -98,10 +98,10 @@ export const HeroAfter = () => {
         <div className="flex md:w-[65%] w-full flex-col items-start">
           <h1 className="sm:text-3xl text-2xl lg:text-5xl xl:text-6xl font-semibold font-rational">
             {/* Denka®—Where innovation meets sustainability, and every choice counts. */}
-            Our Vision for Denka®
+            Our Vision for Huntproperty®
           </h1>
           <p className="lg:mt-10 mt-5 max-w-full md:max-w-[718px]  text-left text-black text-base lg:text-xl">
-            At Denka®, we envision a future where energy-saving innovations lead the way to a greener, more
+            At Huntproperty®, we envision a future where energy-saving innovations lead the way to a greener, more
             sustainable world. Our commitment to this vision is unwavering, as we strive to develop cutting-edge
             solutions that not only curb energy consumption but also extend the life of electrical systems,
             ensuring they operate more efficiently and with less impact on our planet.
@@ -113,7 +113,7 @@ export const HeroAfter = () => {
             adopt eco-friendly practices without compromising on performance or reliability.
           </p>
           <p className="mt-5 max-w-full md:max-w-[718px]  text-left text-black text-base lg:text-xl">
-            In this future, Denka® plays a pivotal role in transforming how energy is used and conserved. We aim
+            In this future, Huntproperty® plays a pivotal role in transforming how energy is used and conserved. We aim
             to create products that not only meet today’s demands but also anticipate tomorrow’s challenges,
             pushing the boundaries of what’s possible in energy conservation and sustainability. Through
             innovation, integrity, and a deep respect for our planet, we are committed to fostering a world where
@@ -131,10 +131,10 @@ export const HeroAfter = () => {
       <div className="flex items-center gap-10">
         <div className="flex flex-col md:w-[65%] w-full item-start">
           <h1 className="sm:text-3xl text-2xl lg:text-5xl xl:text-6xl  font-semibold font-rational">
-            Our Mission at Denka®
+            Our Mission at Huntproperty®
           </h1>
           <p className="lg:mt-10 mt-5 max-w-full md:max-w-[718px]  text-left text-black text-base lg:text-xl">
-            At Denka®, our mission is to lead the charge in energy-saving innovation, empowering individuals
+            At Huntproperty®, our mission is to lead the charge in energy-saving innovation, empowering individuals
             and industries to reduce their energy consumption while enhancing the longevity and efficiency of
             their electrical systems. We are dedicated to developing advanced, eco-friendly solutions that not
             only meet the highest standards of performance but also contribute to a more sustainable and
@@ -152,7 +152,7 @@ export const HeroAfter = () => {
             deliver real, measurable benefits.
           </p>
           <p className="mt-5 max-w-full md:max-w-[718px]  text-left text-black text-base lg:text-xl">
-            Through innovation and a deep respect for our planet, Denka® is on a mission to make every watt
+            Through innovation and a deep respect for our planet, Huntproperty® is on a mission to make every watt
             count, leading the way toward a future where energy efficiency and sustainability are the norm, not
             the exception.
           </p>
@@ -169,7 +169,7 @@ export const HeroAfter = () => {
         </div>
         <div className="flex md:w-[65%] w-full flex-col items-start">
           <h1 className="sm:text-3xl text-2xl lg:text-5xl xl:text-6xl font-semibold font-rational">
-            Our Values at Denka®
+            Our Values at Huntproperty®
           </h1>
           <div className="sm:mt-10 mt-5 max-w-full md:max-w-[718px]  text-left text-black text-base lg:text-xl">
             <p className="font-semibold">Innovation Through Curiosity</p>
@@ -200,17 +200,6 @@ export const HeroAfter = () => {
             We are committed to delivering high-performance, durable solutions that provide lasting value.
           </div>
         </div>
-      </div>
-
-      <div className="flex items-center gap-10">
-        <Image
-          className=" w-full h-full"
-          height={''}
-          width={''}
-          unoptimized
-          alt="team member"
-          src={img}
-        />
       </div>
     </div>
     </MaxContainer>

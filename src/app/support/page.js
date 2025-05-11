@@ -1,3 +1,5 @@
+"use client";
+
 import FooterNavigation from "@/components/footer"
 import SupportHero from "@/components/support/Hero"
 import OnSite from "@/components/support/OnSite"

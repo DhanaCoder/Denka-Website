@@ -3,11 +3,11 @@ import Image from "next/image";
 import HomeHero from "@/components/home/Hero";
 import HeroAfter from "@/components/home/HeroAfter";
 import DenkaPlatesBenefits from "@/components/home/DenkaPlatesBenefits";
-import DenkaCards from "@/components/home/DenkaCards";
+//import DenkaCards from "@/components/home/DenkaCards";
 import DenkaPlatinum from "@/components/home/DenkaPlatinum";
 import DiscountOffer from "@/components/home/DiscountOffer";
 import FooterNavigation from "@/components/footer";
-import UserShortGallery from "@/components/home/UserShortGallery";
+//import UserShortGallery from "@/components/home/UserShortGallery";
 import { useRef } from "react";
 
 export default function Home() {
@@ -28,10 +28,10 @@ export default function Home() {
         <HeroAfter />
       </div>
       <DenkaPlatesBenefits />
-      <DenkaCards />
+      {/* <DenkaCards /> */}
       <DenkaPlatinum />
       <DiscountOffer />
-      <UserShortGallery />
+      {/* <UserShortGallery /> */}
       <FooterNavigation />
     </div>
   );

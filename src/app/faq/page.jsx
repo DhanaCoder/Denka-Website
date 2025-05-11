@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 import text from '@/assets/FAQ.svg'
 import Image from 'next/image'

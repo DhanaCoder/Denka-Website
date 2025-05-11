@@ -83,13 +83,13 @@ const TeamMember = () => {
     {
       name: "Aizawa Anasu",
       role: 'Managing Director & Head of Operations, HQ - Tokyo, Japan.',
-      description: 'Mr. Aizawa is an investor and a Managing Director of Denka® looking after the operations, sales and the R&D process in Japan to provide the best for our clients internationally.',
+      description: 'Mr. Aizawa is an investor and a Managing Director of Huntproperty® looking after the operations, sales and the R&D process in Japan to provide the best for our clients internationally.',
       img: img2,
     },
     {
       name: "Alaa Alyaman",
-      role: 'Founder & Executive Chairman Denka® Globally',
-      description: 'Mr. Alaa Alyaman is the founder and 75% Shareholder of Denka® He loves to get involve directly in the workloads see the needed changes and continuously update the company policy, strategy and draw the vision in order to ensure the satisfactory of Denka®’s users.',
+      role: 'Founder & Executive Chairman Huntproperty® Globally',
+      description: 'Mr. Alaa Alyaman is the founder and 75% Shareholder of Huntproperty® He loves to get involve directly in the workloads see the needed changes and continuously update the company policy, strategy and draw the vision in order to ensure the satisfactory of Huntproperty®’s users.',
       img: img1,
     },
   ];
@@ -111,7 +111,7 @@ const TeamMember = () => {
           Our Management Team
         </h1>
         <p className="mt-3 sm:mt-5 text-center text-lg lg:text-2xl relative z-10">
-          Who’s Behind Denka®
+          Who’s Behind Huntproperty®
         </p>
 
         <Slider ref={sliderRef} {...sliderSettings} className="relative z-10 mt-6 sm:mt-9">
@@ -166,7 +166,7 @@ const TeamMember = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <h1 className="lg:text-6xl font-rational md:text-5xl sm:text-4xl text-3xl text-center mt-10 sm:mt-20 lg:mt-[152px] font-extrabold">
-          Denka® Globally
+          Huntproperty® Globally
         </h1>
         {/* <p className="text-center font-medium text-sm md:text-2xl mt-2 sm:mt-3">
           We are around you, everywhere with 5 global offices & <br className="hidden sm:block" />{" "}

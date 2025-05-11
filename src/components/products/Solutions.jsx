@@ -8,15 +8,15 @@ import img from '@/assets/video-img2.png'
 const Solutions = () => {
 
   const platinumItems = [
-    { id: 1, name: 'No Power Cutoff Installation:', text: "Denka® can be installed without the need for a power cutoff, ensuring zero construction and minimal disruption.", icon: <FaCheck /> },
-    { id: 2, name: 'Extended Lifespan:', text: "Thanks to its ceramic material composition, Denka® boasts an impressive lifespan of over 60 years.", icon: <FaCheck /> },
+    { id: 1, name: 'No Power Cutoff Installation:', text: "Huntproperty can be installed without the need for a power cutoff, ensuring zero construction and minimal disruption.", icon: <FaCheck /> },
+    { id: 2, name: 'Extended Lifespan:', text: "Thanks to its ceramic material composition, Huntproperty boasts an impressive lifespan of over 60 years.", icon: <FaCheck /> },
     { id: 2, name: 'Long-term Warranty:', text: " We stand by our product with a robust warranty of over 25 years, giving you peace of mind for decades.", icon: <FaCheck /> },
-    { id: 2, name: 'Energy Savings:', text: " Denka® reduces electrical consumption by up to 20%, making your energy use much more efficient.", icon: <FaCheck /> },
-    { id: 2, name: 'Load Lifespan Enhancement:', text: " By reducing electrical noise, Denka® saves the lifespan of your electrical loads by up to 30%.", icon: <FaCheck /> },
-    { id: 2, name: 'Quick Payback Period:', text: "  Experience a maximum 1.5-year payback period, making Denka® a swift and sound investment.", icon: <FaCheck /> },
+    { id: 2, name: 'Energy Savings:', text: " Huntproperty reduces electrical consumption by up to 20%, making your energy use much more efficient.", icon: <FaCheck /> },
+    { id: 2, name: 'Load Lifespan Enhancement:', text: " By reducing electrical noise, Huntproperty saves the lifespan of your electrical loads by up to 30%.", icon: <FaCheck /> },
+    { id: 2, name: 'Quick Payback Period:', text: "  Experience a maximum 1.5-year payback period, making Huntproperty a swift and sound investment.", icon: <FaCheck /> },
     { id: 2, name: 'Money-Back Guarantee:', text: " We offer a 60-day golden money-back guarantee, so you can make your decision with confidence.", icon: <FaCheck /> },
-    { id: 2, name: 'Compatible with other Energy Solutions:', text: "Whether you have LEDs, a PV system, or even low-pass and/or EMI filters, Denka® Plate will still operate to give you an extra up to 20% savings!", icon: <FaCheck /> },
-    { id: 2, name: 'No Maintenance:', text: "Denka® needs no maintenance nor periodic maintenance.", icon: <FaCheck /> },
+    { id: 2, name: 'Compatible with other Energy Solutions:', text: "Whether you have LEDs, a PV system, or even low-pass and/or EMI filters, Huntproperty Plate will still operate to give you an extra up to 20% savings!", icon: <FaCheck /> },
+    { id: 2, name: 'No Maintenance:', text: "Huntproperty needs no maintenance nor periodic maintenance.", icon: <FaCheck /> },
   ];
 
 
@@ -75,14 +75,14 @@ const Solutions = () => {
       >
         <div className="">
           <h1 className="text-2xl sm:text-3xl font-extrabold lg:text-4xl leading-tight">
-          Denka® Platinum: Unleashing Efficiency!
+          Huntproperty Platinum: Unleashing Efficiency!
           </h1>
           <p className="mt-3 sm:mt-4 md:mt-6 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-[#777777]">
-            Denka® Platinum is a top-tier product designed to revolutionize your
-            energy consumption. Built on solid engineering principles, Denka®
+            Huntproperty Platinum is a top-tier product designed to revolutionize your
+            energy consumption. Built on solid engineering principles, Huntproperty
             Platinum offers exceptional quality and provides long-term benefits
             across residential, commercial, and industrial sectors. With its
-            advanced technology, Denka® Platinum not only reduces energy
+            advanced technology, Huntproperty Platinum not only reduces energy
             consumption but also enhances the lifespan of your electrical
             systems.
           </p>

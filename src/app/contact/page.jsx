@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 import text from '@/assets/Contact.svg'
 import Image from 'next/image'
@@ -82,7 +84,7 @@ const Page = () => {
                                     <div className='bg-white p-2 rounded-md' >
                                         <FaEnvelope className='text-blueMain' />
                                     </div>
-                                    <p>support@y-denka.com</p>
+                                    <p>support@y-huntproperty.com</p>
                                 </div>
                             </div>
                             {/* <div className='bg-lightGray py-4 rounded-lg w-full h-full flex flex-col items-center justify-center' >
@@ -105,10 +107,10 @@ const Page = () => {
                                 <div className='flex flex-col items-center gap-3 '>
                                     <p className='text-center'>Social Links</p>
                                     <div className='flex items-center gap-2'>
-                                        <Link target='_blank' href={'https://www.facebook.com/denka.jp'} className='bg-white p-2 rounded-md' >
+                                        <Link target='_blank' href={'https://www.facebook.com/huntproperty.jp'} className='bg-white p-2 rounded-md' >
                                             <FaFacebookF className='text-blueMain' />
                                         </Link>
-                                        <Link target='_blank' href={'https://www.linkedin.com/company/denkajp'} className='bg-white p-2 rounded-md' >
+                                        <Link target='_blank' href={'https://www.linkedin.com/company/huntpropertyjp'} className='bg-white p-2 rounded-md' >
                                             <BiLogoLinkedinSquare className='text-blueMain' />
                                         </Link>
                                         <Link href={''} className='bg-white p-2 rounded-md' >

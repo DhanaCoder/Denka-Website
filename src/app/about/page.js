@@ -1,8 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import FooterNavigation from "@/components/footer";
 import AboutHero from "@/components/about/Hero";
 import { HeroAfter } from "@/components/about/HeroAfter";
-import TeamMember from "@/components/about/TeamMember";
+//import TeamMember from "@/components/about/TeamMember";
 import Testimonials from "@/components/about/Testimonials";
 
 export default function About() {
@@ -10,7 +12,7 @@ export default function About() {
     <div className="font-raleway overflow-hidden">
       <AboutHero />
       <HeroAfter/>
-      <TeamMember/>
+      {/* <TeamMember/> */}
       <Testimonials/>
       <FooterNavigation />
     </div>

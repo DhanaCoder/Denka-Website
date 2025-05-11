@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { IoCartOutline } from "react-icons/io5";
+//import { IoCartOutline } from "react-icons/io5";
 import { CgMenuRight } from "react-icons/cg";
 import { RxCross1, RxCross2 } from "react-icons/rx";
 import { usePathname } from "next/navigation";
@@ -52,25 +52,20 @@ const MainNavbar = ({ className }) => {
     <div className="absolute bg-transparent flex justify-center px-4 py-1 z-50 w-full">
       <MaxContainer>
         <div className="flex relative items-center sm:w-[91%] w-full justify-between navbar">
-          <Link href={"/"}>
-            <Image
-              className="w-full h-full"
-              src="https://imgur.com/aW2K5LH.png"
-              alt="logo"
-              width={100}
-              height={100}
-            />
+          <Link href="/">
+            <h2 className="text-white font-bold">HUNTPROPERTY</h2>
           </Link>
           {/* Desktop navigation */}
           <div className="lg:flex hidden justify-between  xl:w-[70%] w-[80%] items-start font-raleway">
             {mainNavigationLinks.map((navLink) => {
-              const isActive = pathname === navLink.slug || pathname.startsWith(navLink.slug);
+              const isActive =
+                pathname === navLink.slug || pathname.startsWith(navLink.slug);
               return (
                 <div
                   key={navLink.slug}
                   className={`after:absolute after:bottom-1 ${
                     isActive ? "after:w-full" : "after:w-0"
-                  } relative lg:py-3.5 py-2 after:left-0 after:z-50 after:h-[3px] hover:xl:px-6 transition-all duration-500 ease-in-out after:rounded after:bg-blueMain after:duration-200 hover:after:w-full`}
+                  } relative lg:py-3.5 py-2 after:left-0 after:z-50 after:h-[3px] hover:xl:px-6 transition-all duration-500 ease-in-out after:rounded after:bg-white after:duration-200 hover:after:w-full`}
                 >
                   <Link
                     className="relative px-2 py-1.5 text-black"
@@ -85,8 +80,11 @@ const MainNavbar = ({ className }) => {
 
           {/* Cart and Mobile Menu Button */}
           <div className="flex items-center gap-3">
-            <Link href={"/products/cart"} className="bg-white p-1.5 rounded-full">
-              <IoCartOutline className="text-[#777777] text-xl sm:text-2xl" />
+            <Link
+              href={"/products/cart"}
+              className="bg-white p-0.5 rounded-full"
+            >
+              {/* <IoCartOutline className="text-[#777777] text-xl sm:text-2xl" /> */}
             </Link>
             <button
               onClick={handleNav}
@@ -122,7 +120,7 @@ const MainNavbar = ({ className }) => {
                     transition={{ duration: 0.5, delay: 0.3 }}
                     className="flex items-center bg-gradient-to-b from-[#9089b5] to-[#cfd1d1] p-2 justify-between w-full"
                   >
-                    <Link href="/">
+                    {/* <Link href="/">
                       <Image
                         src="https://imgur.com/aW2K5LH.png"
                         unoptimized
@@ -130,7 +128,7 @@ const MainNavbar = ({ className }) => {
                         width={100}
                         height={100}
                       />
-                    </Link>
+                    </Link> */}
                     <RxCross2
                       className="text-3xl cursor-pointer text-white"
                       onClick={handleNav}
@@ -139,7 +137,8 @@ const MainNavbar = ({ className }) => {
                   <div className="flex flex-col px-4 gap-4">
                     {mainNavigationLinks.map((navLink, index) => {
                       const isActive =
-                        pathname === navLink.slug || pathname.startsWith(navLink.slug);
+                        pathname === navLink.slug ||
+                        pathname.startsWith(navLink.slug);
                       return (
                         <motion.div
                           key={navLink.slug}

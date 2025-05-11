@@ -1,11 +1,11 @@
 import { Poppins, Raleway } from "next/font/google";
-import localFont from '@next/font/local'
+import localFont from "next/font/local"
 import "./globals.css";
 import MainNavbar from "@/components/navigation/MainNavbar";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Denka",
+  title: "Huntproperty",
   description: "",
 };
 

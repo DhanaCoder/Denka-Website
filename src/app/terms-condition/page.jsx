@@ -26,8 +26,8 @@ const Page = () => {
                         </div>
                         <div className='md:w-[65%] sm:w-[80%] w-full sm:mt-8 mt-4'>
                             <p className='sm:text-base text-sm text-center'>
-                                Welcome to Denka®! These Terms of Service (&quot;Terms&quot;) govern your access to and use of our
-                                website located at <Link href={'https://www.y-denka.com/'}>https://www.y-denka.com/</Link> (the &quot;Site&quot;). By accessing or using the Site, you
+                                Welcome to huntproperty®! These Terms of Service (&quot;Terms&quot;) govern your access to and use of our
+                                 website located at{/* <Link href={'https://www.y-denka.com/'}>https://www.y-denka.com/</Link>*/} (the &quot;Site&quot;). By accessing or using the Site, you 
                                 agree to be bound by these Terms. If you do not agree to these Terms, please do not use the
                                 Site.
 
@@ -54,11 +54,11 @@ const Page = () => {
                                 <p>If you have any questions about these Terms, please contact us at:</p>
                                 <div className="flex items-center gap-1 mt-3">
                                     <h3 className="font-semibold text-xl">Email:</h3>
-                                    <p className='sm:text-base text-sm'>support@y-denka.com</p>
+                                    <p className='sm:text-base text-sm'>support@y-huntproperty.com</p>
                                 </div>
                                 <div className="flex items-center gap-1">
                                     <h3 className="font-semibold text-xl">Website:</h3>
-                                    <Link href={'https://www.y-denka.com/'} >https://www.y-denka.com/</Link>
+                                    {/* <Link href={'https://www.y-denka.com/'} >https://www.y-denka.com/</Link> */}
                                 </div>
                                 <div className='text-lg font-semibold my-8'>
                                     <h1>----------------------------</h1>
